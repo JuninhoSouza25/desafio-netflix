@@ -50,7 +50,8 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,100%)), url(/img/soa-capa.jpg);
-    height: 400px;
+    background-position: top;
+    height: 45vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -85,4 +86,18 @@ header nav a:hover {
 
 .botao i {
     margin-right: 8px;
+}
+
+.container {
+    margin-left: 5vw;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
