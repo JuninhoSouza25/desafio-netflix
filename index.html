@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <title>Netflix Clone</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo"><img src="img/Netflix_logo.svg" alt="Logo Netflix"></h2>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -26,8 +28,21 @@
 
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">SONS OF ANARCHY</h3>
-                <p class="descricao">Depois de tomar o controle da cidade, um clube de motoqueiros enfrenta problemas com rivais, grupos racistas e a lei.</p>
+                <h3 class="titulo"><img src="img/logo-filme-principal.png" alt="Logo Sons of Anarchy"></h3>
+                <div class="rate">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div><p>2008</p></div>
+                    <div><p id="classificacao">16</p></div>
+                    <div><p>7 temporadas</p></div>
+                    <div><p id="hd">HD</p></div>
+                </div>
+                <p class="descricao">Uma gangue de motoqueiros segue suas próprias leis e comanda, por debaixo dos panos, o tráfico de armas na região da aparentemente pacata da cidade de Charming, protegendo-a contra forasteiros hostis.</p>
                 <div class="botoes">
                     <button role="button" class="botao"><i class="fas fa-play"></i>ASSISTIR AGORA</button>
                     <button role="button" class="botao"><i class="fas fa-info-circle"></i>MAIS INFORMAÇÕES</button>
@@ -36,31 +51,37 @@
         </div>
 
     </main>
-
-    <div class="carrosel-filmes">
-        <div class="owl-carousel owl-theme">
-            <div class="item"><img class="box-filme" src="/img/poster-0.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-1.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-2.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-3.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-4.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-5.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-6.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-7.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-8.jpg" alt="Poster serie">
-            </div>
-            <div class="item"><img class="box-filme" src="/img/poster-9.jpg" alt="Poster serie">
-            </div>
-            
+    <div>
+    
+        <div class="container-titulo-galeria">
+            <h3 class="titulo-galeria">Populares</h3>
         </div>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img class="box-filme" src="/img/poster-0.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-1.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-2.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-3.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-4.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-5.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-6.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-7.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-8.jpg" alt="Poster serie">
+                </div>
+                <div class="item"><img class="box-filme" src="/img/poster-9.jpg" alt="Poster serie">
+                </div>
+                
+            </div>
+        </div>
+
     </div>
     <footer>
 
