@@ -18,16 +18,17 @@ body {
     color: #fff;
 }
 
-
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
     height: 6vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1));
 }
 
 .logo {
-    margin-left: 1em;
+    margin-left: 2vw;
 }
 
 .container .logo img {
@@ -77,12 +78,12 @@ main {
 }
 
 .rate div i {
-    color: #e50914;
+    color: rgb(228,228,228);
     cursor: pointer;
 }
 
-.rate div i:last-child {
-    color: rgb(228, 228, 228);
+.vermelho {
+    color: var(--vermelho);
 }
 
 .rate div p {
@@ -137,12 +138,9 @@ main {
     margin-right: 8px;
 }
 
-.container {
-    margin-left: 2vw;
-}
-
 .filme-principal .container {
     width: 60%;
+    margin-left: 2vw;
 }
 
 .box-filme {
@@ -179,5 +177,7 @@ main {
     font-size: 5em;
     transition: 2s ease all;
 }
+
+
 
 
