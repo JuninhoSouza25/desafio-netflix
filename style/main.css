@@ -67,70 +67,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 9vw;
-}
-
-.filme-principal .descricao {
-    margin-bottom: 40px;
-    width: 35vw;
-}
-
-.titulo img{
-    width: 400px;
-}
-
-.botao {
-    background-color: rgba(0,0,0,.50);
-    border: none;
-    padding: 15px 30px;
-    color: #fff;
-    margin-right: 15px;
-    font-size: 12px;
-    cursor: pointer;
-    transition: .3s ease all;
-}
-
-.botao:hover {
-    background-color: #fff;
-    color: black;
-}
-
-.botao i {
-    margin-right: 8px;
-}
-
-.container {
-    margin-left: 5vw;
-}
-
-.filme-principal .container {
-    width: 60%;
-}
-
-.box-filme {
-    height: 70%;
-    display: block;
-    border: 5px solid white;
-}
-
-.container-titulo-galeria {
-    display: flex;
-    width: 95vw;
-    padding-left: 14vw;
-    margin-bottom: 1em;
-}
-
-.container-titulo-galeria .titulo-galeria {
-    font-size: 1.3em;
-    font-weight: 400;
-}
-
-.carrosel-filmes {
-    margin-top: 5px;
-}
-
-.item {
-    cursor: pointer;
 }
 
 .rate {
@@ -171,3 +107,77 @@ main {
     font-weight: 700;
     padding: .1em .5em;
 }
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+    width: 35vw;
+}
+
+.titulo img{
+    width: 400px;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 2vw;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+
+.box-filme {
+    height: 70%;
+    display: block;
+    border-radius: 5px;
+}
+
+.container-titulo-galeria {
+    display: flex;
+    width: 95vw;
+    padding-left: 2vw;
+    margin-bottom: 1em;
+}
+
+.container-titulo-galeria .titulo-galeria {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+.item {
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.item i {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 50%;
+    font-size: 5em;
+    transition: 2s ease all;
+}
+
+
